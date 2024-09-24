@@ -55,30 +55,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="col-span-1 flex justify-center items-center">
-          <div
-            className="w-56 h-52 bg-transparent relative z-10 cursor-pointer"
-            onClick={handlePoint}
-          >
-            <img
-              src={logo}
-              alt="tikkop"
-              className="w-full h-full object-cover "
-            />
-            <div
-              className={`absolute -z-10 w-32 h-32 ${
-                show ? "top-2/4" : "top-0"
-              } left-2/4 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-2000 ease-in-out`}
-              id="point"
-            >
-              <img
-                src={point}
-                alt="point"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
-        </div>
+
        
       </div>
     </div>
